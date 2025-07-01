@@ -1,0 +1,87 @@
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #fff; /* 背景を白に */
+    color: #333; /* 文字色を黒に */
+}
+
+header {
+    background: #00529b; /* N高の青をイメージ */
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 5px solid #003366;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    background: #fff; /* 背景を白に */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd; /* 境界線を薄いグレーに */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00529b; /* タイトルの色をN高の青に */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #00529b;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* テーブルの偶数行を薄いグレーに */
+}
+
+.map-container {
+    position: relative;
+    padding-bottom: 40%; /* 高さを小さく */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #eee;
+    border-radius: 8px;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
